@@ -1,6 +1,6 @@
 package patrones.creational.builder;
 
-public class runMethod {
+public class RunMethod {
 
     public static void runBuilder()  {
         Card.CardBuilder card = new Card.CardBuilder().type("VISA").number("000 111 222 333").name("CHRISTIAN").expiration(2024).isCredit(false);

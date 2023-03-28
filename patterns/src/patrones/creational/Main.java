@@ -1,32 +1,42 @@
 package patrones.creational;
 
+import static patrones.creational.PatternTypes.*;
 import static patrones.creational.abstractFactory.RunMethod.runAbstractFactory;
-import static patrones.creational.builder.runMethod.runBuilder;
+import static patrones.creational.builder.RunMethod.runBuilder;
 import static patrones.creational.factoryMethod.RunMethod.runFactoryMethod;
+import static patrones.creational.prototype.RunMethod.runPrototype;
+import static patrones.creational.singleton.RunMethod.runSingleton;
 
 
 public class Main {
 
     public static void main(String[] args)  {
 
-        separator();
-
         // 1. Factory Method
+        separator(FACTORY_METHOD);
         runFactoryMethod();
-        separator();
 
         // 2. Abstract Factory
+        separator(ABSTRACT_FACTORY);
         runAbstractFactory();
-        separator();
 
         // 3. Builder
+        separator(BUILDER);
         runBuilder();
-        separator();
+
+        // 4. Prototype
+        separator(PROTOTYPE);
+        runPrototype();
+
+        // 4. Singleton
+        separator(SINGLETON);
+        runSingleton();
 
     }
 
-    public static void separator(){
-        System.out.println("---------------------------------------");
+    public static void separator(PatternTypes pattern){
+        System.out.println("---------------------------------------\n");
+        System.out.println(pattern);
     }
 
 }

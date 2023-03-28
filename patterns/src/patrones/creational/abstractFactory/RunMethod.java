@@ -21,16 +21,14 @@ public class RunMethod {
         Card card = (Card) cardFactory.create(VISA.name());
         Payment payment = (Payment) paymentFactory.create(DEBIT.name());
 
-        System.out.println(card.getTypeCard());
-        System.out.println(payment.getTypePayment());
+        System.out.println(card.getTypeCard().concat(" : ").concat(payment.getTypePayment()));
 
         /*---------------------------------------------------------------------------*/
 
         Card card2 = (Card) cardFactory.create(MASTERCARD.name());
         Payment payment2 = (Payment) paymentFactory.create(CREDIT.name());
 
-        System.out.println(card2.getTypeCard());
-        System.out.println(payment2.getTypePayment());
+        System.out.println(card2.getTypeCard().concat(" : ").concat(payment2.getTypePayment()));
     }
 
 }
