@@ -5,5 +5,6 @@ public enum PatternTypes {
     FACTORY_METHOD,
     BUILDER,
     PROTOTYPE,
-    SINGLETON
+    SINGLETON,
+    CHAIN_RESPONSIBILITY,
 }

@@ -1,5 +1,6 @@
 package patrones.creational;
 
+import static patrones.behavioral.chainresposability.RunMethod.runChainOfResponsibility;
 import static patrones.creational.PatternTypes.*;
 import static patrones.creational.abstractFactory.RunMethod.runAbstractFactory;
 import static patrones.creational.builder.RunMethod.runBuilder;
@@ -32,6 +33,9 @@ public class Main {
         separator(SINGLETON);
         runSingleton();
 
+        // 5. Chain Of Responsibility
+        separator(CHAIN_RESPONSIBILITY);
+        runChainOfResponsibility();
     }
 
     public static void separator(PatternTypes pattern){
