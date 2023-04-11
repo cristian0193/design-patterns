@@ -1,8 +1,11 @@
-package patternsjava.behavioral.observer;
+package patternsjava.behavioral.observer.actors;
+
+import patternsjava.behavioral.observer.Observer;
+import patternsjava.behavioral.observer.TrafficLight;
 
 import static patternsjava.behavioral.observer.Status.RED;
 
-public class Walker implements Observer{
+public class Walker implements Observer {
 
     @Override
     public void update(TrafficLight trafficLight) {

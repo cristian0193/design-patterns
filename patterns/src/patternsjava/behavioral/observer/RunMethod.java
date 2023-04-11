@@ -1,5 +1,8 @@
 package patternsjava.behavioral.observer;
 
+import patternsjava.behavioral.observer.actors.Car;
+import patternsjava.behavioral.observer.actors.Walker;
+
 import static patternsjava.behavioral.observer.Status.GREEN;
 import static patternsjava.behavioral.observer.Status.RED;
 
