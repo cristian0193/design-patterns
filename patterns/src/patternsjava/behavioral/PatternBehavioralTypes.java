@@ -6,5 +6,9 @@ public enum PatternBehavioralTypes {
     ITERATOR,
     MEDIATOR,
     MEMENTO,
-    OBSERVER
+    OBSERVER,
+    STATE,
+    INTERPRETER,
+    STRATEGY,
+    TEMPLATE
 }
