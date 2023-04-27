@@ -10,5 +10,6 @@ public enum PatternBehavioralTypes {
     STATE,
     INTERPRETER,
     STRATEGY,
-    TEMPLATE
+    TEMPLATE,
+    VISITOR
 }

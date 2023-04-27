@@ -11,6 +11,7 @@ import static patternsjava.behavioral.observer.RunMethod.runObserver;
 import static patternsjava.behavioral.state.RunMethod.runState;
 import static patternsjava.behavioral.strategy.RunMethod.runStrategy;
 import static patternsjava.behavioral.template.RunMethod.runTemplate;
+import static patternsjava.behavioral.visitor.RunMethod.runVisitor;
 
 public class Main {
 
@@ -55,6 +56,10 @@ public class Main {
         // 10. Template Method
         separator(TEMPLATE);
         runTemplate();
+
+        // 11. Visitor
+        separator(VISITOR);
+        runVisitor();
     }
 
     public static void separator(PatternBehavioralTypes pattern){
