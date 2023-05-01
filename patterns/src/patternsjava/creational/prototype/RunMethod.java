@@ -1,6 +1,6 @@
 package patternsjava.creational.prototype;
 
-import patternsjava.creational.prototype.Cards.PrototypeFactory;
+import patternsjava.creational.prototype.cards.PrototypeFactory;
 
 import static patternsjava.creational.prototype.CardTypes.MASTERCARD;
 import static patternsjava.creational.prototype.CardTypes.VISA;

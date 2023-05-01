@@ -1,10 +1,10 @@
 package patternsjava.creational.factoryMethod;
 
-import patternsjava.creational.factoryMethod.Payments.Payment;
-import patternsjava.creational.factoryMethod.Payments.PaymentFactory;
+import patternsjava.creational.factoryMethod.payments.Payment;
+import patternsjava.creational.factoryMethod.payments.PaymentFactory;
 
-import static patternsjava.creational.factoryMethod.Payments.PaymentType.CREDIT;
-import static patternsjava.creational.factoryMethod.Payments.PaymentType.DEBIT;
+import static patternsjava.creational.factoryMethod.payments.PaymentType.CREDIT;
+import static patternsjava.creational.factoryMethod.payments.PaymentType.DEBIT;
 
 public class RunMethod {
 

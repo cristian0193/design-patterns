@@ -1,4 +1,4 @@
-package patternsjava.creational.factoryMethod.Payments;
+package patternsjava.creational.factoryMethod.payments;
 
 public class Credit implements Payment {
 

@@ -1,4 +1,4 @@
-package patternsjava.creational.abstractFactory.Payments;
+package patternsjava.creational.abstractFactory.payments;
 
 public class Debit implements Payment {
 

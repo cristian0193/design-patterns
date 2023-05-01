@@ -1,4 +1,4 @@
-package patternsjava.creational.abstractFactory.Cards;
+package patternsjava.creational.abstractFactory.cards;
 
 import patternsjava.creational.abstractFactory.AbstractFactory;
 

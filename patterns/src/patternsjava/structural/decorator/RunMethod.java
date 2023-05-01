@@ -1,11 +1,7 @@
 package patternsjava.structural.decorator;
 
-import patternsjava.structural.composite.Component;
-import patternsjava.structural.composite.Composite;
-import patternsjava.structural.composite.accounts.Current;
-import patternsjava.structural.composite.accounts.Savings;
-import patternsjava.structural.decorator.Cards.Black;
-import patternsjava.structural.decorator.Cards.Gold;
+import patternsjava.structural.decorator.cards.Black;
+import patternsjava.structural.decorator.cards.Gold;
 import patternsjava.structural.decorator.actions.InternationalPayment;
 import patternsjava.structural.decorator.actions.SecurePayment;
 

@@ -1,4 +1,4 @@
-package patternsjava.structural.decorator.Cards;
+package patternsjava.structural.decorator.cards;
 
 import patternsjava.structural.decorator.Credit;
 

@@ -1,4 +1,4 @@
-package patternsjava.creational.abstractFactory.Payments;
+package patternsjava.creational.abstractFactory.payments;
 
 import patternsjava.creational.abstractFactory.AbstractFactory;
 

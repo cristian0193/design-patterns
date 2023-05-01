@@ -1,6 +1,6 @@
 package patternsjava.structural.bridge;
 
-import patternsjava.structural.bridge.Cards.Classic;
+import patternsjava.structural.bridge.cards.Classic;
 import patternsjava.structural.bridge.payments.Secure;
 import patternsjava.structural.bridge.payments.Unsecure;
 

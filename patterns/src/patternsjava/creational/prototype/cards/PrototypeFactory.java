@@ -1,4 +1,4 @@
-package patternsjava.creational.prototype.Cards;
+package patternsjava.creational.prototype.cards;
 
 import patternsjava.creational.prototype.CardTypes;
 import patternsjava.creational.prototype.PrototypeCard;

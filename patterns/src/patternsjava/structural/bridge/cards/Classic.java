@@ -1,4 +1,4 @@
-package patternsjava.structural.bridge.Cards;
+package patternsjava.structural.bridge.cards;
 
 import patternsjava.structural.bridge.Card;
 import patternsjava.structural.bridge.ICard;

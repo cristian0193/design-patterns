@@ -1,14 +1,14 @@
 package patternsjava.creational.abstractFactory;
 
 
-import patternsjava.creational.abstractFactory.Cards.Card;
-import patternsjava.creational.abstractFactory.Payments.Payment;
+import patternsjava.creational.abstractFactory.cards.Card;
+import patternsjava.creational.abstractFactory.payments.Payment;
 
 
-import static patternsjava.creational.abstractFactory.Cards.CardType.MASTERCARD;
-import static patternsjava.creational.abstractFactory.Cards.CardType.VISA;
-import static patternsjava.creational.abstractFactory.Payments.PaymentType.CREDIT;
-import static patternsjava.creational.abstractFactory.Payments.PaymentType.DEBIT;
+import static patternsjava.creational.abstractFactory.cards.CardType.MASTERCARD;
+import static patternsjava.creational.abstractFactory.cards.CardType.VISA;
+import static patternsjava.creational.abstractFactory.payments.PaymentType.CREDIT;
+import static patternsjava.creational.abstractFactory.payments.PaymentType.DEBIT;
 import static patternsjava.creational.abstractFactory.PurchaseType.CARD;
 import static patternsjava.creational.abstractFactory.PurchaseType.PAYMENT;
 

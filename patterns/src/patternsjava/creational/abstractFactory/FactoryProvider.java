@@ -1,7 +1,7 @@
 package patternsjava.creational.abstractFactory;
 
-import patternsjava.creational.abstractFactory.Cards.CardFactory;
-import patternsjava.creational.abstractFactory.Payments.PaymentFactory;
+import patternsjava.creational.abstractFactory.cards.CardFactory;
+import patternsjava.creational.abstractFactory.payments.PaymentFactory;
 
 public class FactoryProvider {
 
